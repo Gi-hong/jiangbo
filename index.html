@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三国杀武将鉴赏</title>
+    <link rel="stylesheet" class="nav-link" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" class="nav-link" href="bootstrap/css/bootstrap-icons.css">
+    <link rel="stylesheet" class="nav-link" href="style/style.css">
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <audio src="bgm/背景音乐.m4a..mp3" autoplay="autoplay" loop="true" ></audio>
+
+    <section id="nav" class="nav fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar-brand" class="nav-link" href="#">
+                    <i class="bi bi-controller"></i>
+                    <span>三国杀</span>
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="bi bi-list"></i>
+                    <i class="bi bi-x"></i>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ">
+                        <a class="nav-link active" href="#home">首页</a>
+                        <a class="nav-link" href="#about">移动官网下载</a>
+                        <a class="nav-link" href="#menu">地主强势武将</a>
+                        <a class="nav-link" href="#gallery">强力武将推荐</a>
+                        <a class="nav-link" href="#newsletter">欢迎投稿</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="jumbotron">
+                        <h1 class="lead">宁做高贵乡公死，不做汉献帝生！</h3>
+
+                        <p class="lead"> 周年庆典，震撼来袭！ </p>
+                        <p>全新史诗武将曹髦首发登场，全新持恒技能机制点燃全场
+                            重新定义军八，更多福利尽在游戏！
+                        </p>
+                        <a class="btn btn-outline-info btn-lg" class="nav-link" href="https://www.sanguosha.cn/pc/index"
+                            role="button">点击进入游戏</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-none d-lg-block box">
+                    <img src="images/logo.png" alt="...">
+                    <img src="images/XIAZAI.PNG" alt="">
+                </div>
+                <div class="col-12 col-lg-6 ">
+                    <h2><small>官方正版，随时随地杀一下！</small></h2>
+                    <h2>Official, kill anytime, anywhere！</h2>
+                    <p class="lead">畅爽游玩，激情一夏，酣畅淋漓的真人在线对决卡牌游戏，精美画质，语音动人，策划脑残，超高爆率，一盒子必出2将魂
+                        厚重的时代背景，让你身临其境的回到那个热血沸腾的三国时代，快喊上你的朋友一起体验吧！
+                       </p>
+                    <a class="btn btn-outline-info btn-lg" class="nav-link" href="https://www.sanguosha.cn/pc/index"
+                        role="button">关于我们</a>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="icons text-center">
+                                <i class="bi bi-file-earmark-arrow-down-fill"></i>
+                                <p>云端畅玩</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="icons text-center">
+                                <i class="bi bi-android"></i>
+                                <p>安卓端</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="icons text-center">
+                                <i class="bi bi-apple"></i>
+                                <p>苹果端 </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="page-header text-center">
+                <h1>斗地主强势地主</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card" style="text-align: center;">
+                        <img src="images/大鬼.png" class="card-img-top" alt="kfd">
+                        <div class="card-body">
+                            <h3>神甘宁</h3>
+                            <p class="card-text">
+                                一个技能机制特殊的武将，出色的技能机制使他集看牌，过牌，回血，破坏敌人手牌，多刀的能力
+                                随时能根据局势改变自身打法使他玩法多变，稳居地主三阴的位置
+                                </p>
+                                <audio id="audio1" src="bgm/神甘.m4a..mp3"></audio>
+ 
+                                <button id="bt1" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt1") .onclick=function play(){
+                                    document.getElementById("audio1").play();
+                                }
+                                </script>
+                                 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card" style="text-align: center;">
+                        <img src="images/大宝.png" class="card-img-top" alt="kfd">
+                        <div class="card-body">
+                            <h3>界徐盛</h3>
+                            <p class="card-text">来自吴国的阳光男孩，帅气的脸庞，自信的笑容
+                                被誉为三国杀最难操作的英雄，经常因为先喝酒还是先上刀而苦恼
+                                作为地主三阴他的暴力输出和盖牌使人恐惧
+                                </p>
+                                <audio id="audio2" src="bgm/大宝.m4a..mp3"></audio>
+ 
+                                <button id="bt2" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                 document.getElementById("bt2") .onclick=function play(){
+                                    document.getElementById("audio2").play();
+                                }
+                                </script>
+                                 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card" style="text-align: center;">
+                        <img src="images/大妖.png" class="card-img-top" alt="kfd">
+                        <div class="card-body">
+                            <h3>神郭嘉</h3>
+                            <p class="card-text">
+                                时代的六万五，顶级发育武将的代表，与他作战越到后期越是大魔王，是缺乏输出能力农民的头号敌人
+                                郭嘉不才，一轮十牌
+                                能加体力上限和印牌的能力，是他作为斗地主三阴的底气
+                               </p>
+                               <audio id="audio3" src="bgm/大妖.m4a..mp3"></audio>
+ 
+                               <button id="bt3" type="button" onclick="play();">点击感受</button>
+                                
+                               <script type="text/javascript">
+                               document.getElementById("bt3") .onclick=function play(){
+                                   document.getElementById("audio3").play();
+                               }
+                               </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card" style="text-align: center;">
+                        <img src="images/白马.png" class="card-img-top" alt="kfd">
+                        <div class="card-body">
+                            <h3>鞠义</h3>
+                            <p class="card-text">爱酱白马，也许不是最强的，但是白马一定是最快的，三南一万？杀到下一桌！
+                                打得快跑的也快，这就是我们白马玩家
+                                </p>
+                                <audio id="audio4" src="bgm/白马.m4a..mp3"></audio>
+ 
+                                <button id="bt4" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt4") .onclick=function play(){
+                                    document.getElementById("audio4").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card" style="text-align: center;">
+                        <img src="images/神男.png" class="card-img-top" alt="kfd">
+                        <div class="card-body">
+                            <h3>神孙策</h3>
+                            <p class="card-text">辣个男人的神将版，再也不是当年的54320了，无论是地主还是农民都是顶级的存在
+                                不怕高爆发的免伤系统，拥有减体力上限和强中的能力，唯一缺点就是怕没牌
+                                </p>
+                                <audio id="audio5" src="bgm/神男.m4a..mp3"></audio>
+ 
+                                <button id="bt5" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt5") .onclick=function play(){
+                                    document.getElementById("audio5").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card" style="text-align: center;">
+                        <img src="images/小鸟.png" class="card-img-top" alt="kfd">
+                        <div class="card-body">
+                            <h3>文鸯</h3>
+                            <p class="card-text">首个双势力武将，新时代暴力武将代表代表，拥有超强输出能力，全模式强力武将
+                                魏鸟：你猜猜我下一张是杀背水还是决斗背水你？
+                                吴鸟：你猜猜我手上有几张装备？
+                                </p>
+                                <audio id="audio6" src="bgm/小鸟.m4a..mp3"></audio>
+ 
+                                <button id="bt6" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt6") .onclick=function play(){
+                                    document.getElementById("audio6").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card" style="text-align: center;">
+                        <img src="images/十常侍.png "class=card-img-top alt="kfd">
+                        <div class="card-body">
+                            <h3>十常侍</h3>
+                            <p class="card-text">独特的役亡机制，让农民有牌也打不出来
+                                一个人的游戏，五轮必死
+                                </p>
+                                <audio id="audio7" src="bgm/十常侍.m4a..mp3"></audio>
+ 
+                                <button id="bt7" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt7") .onclick=function play(){
+                                    document.getElementById("audio7").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card" style="text-align: center;">
+                        <img src="images/九千岁.png" class="card-img-top" alt="kfd">
+                        <div class="card-body">
+                            <h3>界沮授</h3>
+                            <p class="card-text">九千岁，吃红利神将，高额过牌量和过牌的高质量使他很容易摸到AK
+                                </p>
+                                <audio id="audio8" src="bgm/九千岁.m4a..mp3"></audio>
+ 
+                                <button id="bt8" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt8") .onclick=function play(){
+                                    document.getElementById("audio8").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card" style="text-align: center;">
+                        <img src="images/老宝.png" class="card-img-top" alt="kfd">
+                        <div class="card-body">
+                            <h3>老宝</h3>
+                            <p class="card-text">
+                                在我花色还没凑齐之前我允许你嘻嘻哈哈
+                              句句不离年迈，刀刀四血开外
+                                </p>
+                                <audio id="audio9" src="bgm/谋黄忠.m4a..mp3"></audio>
+ 
+                                <button id="bt9" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt9") .onclick=function play(){
+                                    document.getElementById("audio9").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery">
+        <div class="container ">
+            <div class="page-header text-center">
+                <h1>强力武将推荐</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/358团长.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">骆统</h5>
+                            <p class="card-text">358团长，一个定点找牌的男人，回合外防御力也不低，摸到AK就是库库输出的男人
+                                东吴歌王一号
+                                </p>
+                                <audio id="audio10" src="bgm/358.m4a..mp3"></audio>
+ 
+                                <button id="bt10" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt10") .onclick=function play(){
+                                    document.getElementById("audio10").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/苍蝇.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">神太史慈</h5>
+                            <p class="card-text">红眼苍蝇一位，顶级农民武将，排位也有强力发挥
+                                吃包养，人称小张松
+                                </p>
+                                <audio id="audio11" src="bgm/苍蝇.m4a..mp3"></audio>
+ 
+                                <button id="bt11" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt11") .onclick=function play(){
+                                    document.getElementById("audio11").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/丞相.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">谋诸葛亮</h5>
+                            <p class="card-text">蜀中无大将，丞相自己上，新时代T0农民，宝哥克星，火计稳定直伤，看破能打对手措手不及
+                                觉醒后观星控顶，缺点溢价严重
+                               </p>
+                               <audio id="audio12" src="bgm/丞相.m4a..mp3"></audio>
+ 
+                               <button id="bt12" type="button" onclick="play();">点击感受</button>
+                                
+                               <script type="text/javascript">
+                               document.getElementById("bt12") .onclick=function play(){
+                                   document.getElementById("audio12").play();
+                               }
+                               </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/打胶哥.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">周处</h5>
+                            <p class="card-text">我不是陈桂林！
+                                没觉醒前全场负面buff，每回合伪英姿，容易被加一马卡死
+                               </p>
+                               <audio id="audio13" src="bgm/打胶.m4a..mp3"></audio>
+ 
+                               <button id="bt13" type="button" onclick="play();">点击感受</button>
+                                
+                               <script type="text/javascript">
+                               document.getElementById("bt13") .onclick=function play(){
+                                   document.getElementById("audio13").play();
+                               }
+                               </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/蹲坑王.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">界钟会</h5>
+                            <p class="card-text">
+                                记仇哥，大鬼神男的玩具，十分出色的界限突破，手动屯权的能力使他拥有极高爆发能力
+                                
+                                这仇，我记下了~
+                                </p>
+                                <audio id="audio14" src="bgm/钟会.m4a..mp3"></audio>
+ 
+                                <button id="bt14" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt14") .onclick=function play(){
+                                    document.getElementById("audio14").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/歌王.png "class=card-img-top alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">留赞</h5>
+                            <p class="card-text">
+                                红接黑，简单直白技能描述，摸到AK后就能大量过牌，东吴歌王二号
+                                </p>
+                                <audio id="audio15" src="bgm/歌王.m4a..mp3"></audio>
+ 
+                                <button id="bt15" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt15") .onclick=function play(){
+                                    document.getElementById("audio15").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/关羽.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">谋关羽</h5>
+                            <p class="card-text">
+                                溢价最严重的玩意，
+                                强度在线，但是价格昂贵
+                                富哥的玩意
+                                </p>
+                                <audio id="audio16" src="bgm/谋黄忠.m4a..mp3"></audio>
+ 
+                                <button id="bt16" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt16") .onclick=function play(){
+                                    document.getElementById("audio16").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/世子.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">谋曹丕</h5>
+                            <p class="card-text">
+                              你说的很对，但是朕于天下无所不容
+                                </p>
+                                <audio id="audio17" src="bgm/曹丕.m4a..mp3"></audio>
+ 
+                                <button id="bt17" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt17") .onclick=function play(){
+                                    document.getElementById("audio17").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/数学家.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">裴秀</h5>
+                            <p class="card-text">
+                             计算机按爆神将，弃二摸一的武将，能够定点找牌，需要一定数学基础
+                             给他10张牌基本结束游戏
+
+                                </p>
+                                <audio id="audio18" src="bgm/数学家.m4a..mp3"></audio>
+ 
+                                <button id="bt18" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt18") .onclick=function play(){
+                                    document.getElementById("audio18").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/鲁肃.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">神鲁肃</h5>
+                            <p class="card-text">
+                              一个可以把地主变成农民的武将，改变出牌顺序
+                              恶心人有一手的
+                                </p>
+                                <audio id="audio19" src="bgm/鲁肃.m4a..mp3"></audio>
+ 
+                                <button id="bt19" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt19") .onclick=function play(){
+                                    document.getElementById("audio19").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/谋盖.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">谋黄盖</h5>
+                            <p class="card-text">
+                              主动掉血换护甲的男人，多摸牌强中，能递关键牌，设计完美，因为强度高而被调低出场率的男人
+                                </p>
+                                <audio id="audio20" src="bgm/谋盖.m4a..mp3"></audio>
+ 
+                                <button id="bt20" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt20") .onclick=function play(){
+                                    document.getElementById("audio20").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/牛马老仙.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">南华老仙</h5>
+                            <p class="card-text">
+                              小游戏武将，恶心人的东西
+                                </p>
+                                <audio id="audio21" src="bgm/牛马老仙.m4a..mp3"></audio>
+ 
+                                <button id="bt21" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt21") .onclick=function play(){
+                                    document.getElementById("audio21").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/烧鸡.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">孙寒华</h5>
+                            <p class="card-text">
+                              也是小游戏武将，不做评价，恶心人的东西
+                                </p>
+                                <audio id="audio23" src="bgm/烧鸡.m4a..mp3"></audio>
+ 
+                                <button id="bt23" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt23") .onclick=function play(){
+                                    document.getElementById("audio23").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/王朗.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">王朗</h5>
+                            <p class="card-text">
+                             嘴遁达人，拼点神将，王老七，觉醒必定带走一人
+                                </p>
+                                <audio id="audio22" src="bgm/王司徒.m4a..mp3"></audio>
+ 
+                                <button id="bt22" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt22") .onclick=function play(){
+                                    document.getElementById("audio22").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/魏延.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">魏延</h5>
+                            <p class="card-text">
+                            奥斯奥斯
+                                </p>
+                                <audio id="audio24" src="bgm/奥斯奥斯.m4a..mp3"></audio>
+ 
+                                <button id="bt24" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt24") .onclick=function play(){
+                                    document.getElementById("audio24").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/戏子.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">戏志才</h5>
+                            <p class="card-text">
+                           郭嘉promax版本
+                                </p>
+                                <audio id="audio25" src="bgm/戏子.m4a..mp3"></audio>
+ 
+                                <button id="bt25" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt25") .onclick=function play(){
+                                    document.getElementById("audio25").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/小马哥.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">马钧</h5>
+                            <p class="card-text">
+                            马钧转一转，地主跑一半
+                                </p>
+                                <audio id="audio26" src="bgm/马均.m4a..mp3"></audio>
+ 
+                                <button id="bt26" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt26") .onclick=function play(){
+                                    document.getElementById("audio26").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/杨彪.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">杨彪</h5>
+                            <p class="card-text">
+                           面容慈祥的小老头，给你贴乐就老实了
+                                </p>
+                                <audio id="audio27" src="bgm/杨彪.m4a..mp3"></audio>
+ 
+                                <button id="bt27" type="button" onclick="play();">点击感受</button>
+                                 
+                                <script type="text/javascript">
+                                document.getElementById("bt27") .onclick=function play(){
+                                    document.getElementById("audio27").play();
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="newsletter" class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <h3>欢迎投稿</h3>
+                    <p>歡迎投稿</p>
+                    <p>Submissions are welcome</p>
+                    <p>Заявки приветствуются</p>
+                    <p>投稿は大歓迎です</p>
+                    <p>제출을 환영합니다</p>
+                    <p>Las presentaciones son bienvenidas</p>
+                    <p>Einreichungen sind willkommen</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="更多精彩游戏内容" aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <a href="https://xianhua.sanguosha.cn/"><button class="btn btn-outline-light"
+                                    type="button" id="button-addon2">进入</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="row">
+        <img src="images/weiye.png"  alt="">
+    </div>
+</body>
+
+</html>
